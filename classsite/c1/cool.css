@@ -1,0 +1,41 @@
+body{
+    font-size: 14 ;
+    font-family: Arial;
+    background-color: #e6b3e6;
+    color: navy ;
+    
+}
+
+h1, h2, h3{
+    font-size: 14 ;
+    font-Kerning: 3px;
+    text-decoration-line: overline underline;
+    /* color: #000435; */
+    
+}
+
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hot{
+    background-color: yellow;
+    font-kerning: 6px;
+    font-style: italic ;
+    color: #FF69B4;
+    
+}
+
+.cold{
+    font-kerning: 20px;
+    font-style: bold;
+    color: #0096FF;
+    background-color: #afeeee;
+}
+
+hr{
+    border: 5px solid red;
+}
