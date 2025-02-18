@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabular Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            background-color: #d3d3d3;
+        }
+        td, th {
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        input, select, textarea {
+            width: 98%;
+            padding: 5px;
+        }
+        .buttons {
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button.reset {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Enter your first name:</td>
+                <td><input type="text" placeholder="Your first name"></td>
+            </tr>
+            <tr>
+                <td>Enter your last name:</td>
+                <td><input type="text" placeholder="Your last name"></td>
+            </tr>
+            <tr>
+                <td>Enter your password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>ReEnter your password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Enter your email:</td>
+                <td><input type="email" placeholder="Your email"></td>
+            </tr>
+            <tr>
+                <td>Enter your mobile:</td>
+                <td><input type="tel" placeholder="Your mobile"></td>
+            </tr>
+            <tr>
+                <td>Enter your address:</td>
+                <td><textarea placeholder="Your address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Select your gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Select your hobbies:</td>
+                <td>
+                    <input type="checkbox" value="hobby1"> Hobby 1
+                    <input type="checkbox" value="hobby2"> Hobby 2
+                    <input type="checkbox" value="hobby3"> Hobby 3
+                </td>
+            </tr>
+            <tr>
+                <td>Select your DOB:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Select your country:</td>
+                <td>
+                    <select>
+                        <option>Select your country</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload your pic:</td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button type="submit">Save My Data</button>
+            <button type="reset" class="reset">Reset Data</button>
+        </div>
+    </form>
+</body>
+</html>

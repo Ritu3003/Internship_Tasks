@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Listing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .email-box {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        button {
+            padding: 10px 20px;
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #e60000;
+        }
+        @media (max-width: 500px) {
+            .email-box {
+                flex-direction: column;
+            }
+            input, button {
+                width: 100%;
+                border-radius: 5px;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>DO YOU WANT TO ADD YOUR BUSINESS LISTING WITH US?</h2>
+        <p>ListRace offers you to list your business with us and we are very much able to promote your business.</p>
+        <div class="email-box">
+            <input type="email" id="email" placeholder="Enter your Gmail here">
+            <button>Create Account</button>
+        </div>
+    </div>
+</body>
+</html>

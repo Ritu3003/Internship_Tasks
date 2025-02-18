@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Company Promo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .promo-container {
+            width: 420px;
+            background-color: #ffffff;
+            border: 2px dashed #c4c1c1;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            text-align: center;
+        }
+
+        .promo-header {
+            font-size: 22px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .promo-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .promo-title {
+            font-weight: 700;
+            font-size: 26px;
+            color: #2a2a2a;
+            margin: 20px 0;
+        }
+
+        .promo-description {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .promo-code-container {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            border: 1px dashed #333;
+            border-radius: 8px;
+            display: inline-block;
+            margin: 15px 0;
+        }
+
+        .promo-code {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .promo-expiration {
+            color: #c70000;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .promo-image img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        @media (max-width: 600px) {
+            .promo-container {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .promo-title {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="promo-container">
+        <div class="promo-header">Company Logo</div>
+        <div class="promo-image">
+            <img src="company_logo.png" alt="logo">
+        </div>
+        <div class="promo-title">20% OFF YOUR PURCHASE</div>
+        <div class="promo-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque alias voluptas consequuntur perferendis
+            blanditiis similique quisquam. Quo, ullam. Maiores necessitatibus \
+        <div class="promo-code-container">
+            Use Promo Code: <span class="promo-code">BOH232</span>
+        </div>
+        <div class="promo-expiration">Expires: Jan 03, 2021</div>
+    </div>
+</body>
+
+</html>
